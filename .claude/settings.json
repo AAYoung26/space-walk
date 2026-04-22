@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs ls *)",
+      "Bash(git -C /Users/aaronyoung/Documents/space-walk log --oneline -10)",
+      "Bash(xargs -I{} sh -c 'echo \"=== {} ===\"; ls /Users/aaronyoung/Documents/space-walk/raw_frames/{} | head -5; ls /Users/aaronyoung/Documents/space-walk/raw_frames/{} | tail -3')",
+      "Bash(python3 -c \"import tkinter; print\\('tkinter OK'\\)\")",
+      "Bash(grep -v '\\\\.png$')",
+      "Bash(brew --version)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(brew list *)",
+      "Bash(python3 -c \"from AppKit import NSApp, NSAppearance; print\\('available'\\)\")"
+    ]
+  }
+}
