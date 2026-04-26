@@ -2,3 +2,5 @@ tools/frame_compiler/venv/
 tools/frame_compiler/build/
 tools/frame_compiler/dist/
 tools/frame_compiler/__pycache__/
+
+*.DS_Store
